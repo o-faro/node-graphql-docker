@@ -14,7 +14,7 @@ const typeDefs = gql`
     student(id: ID!): Student
   }
   type Mutation {
-    registerStudent(email: String!, fullName: String!): Student! 
+    registerStudent(email: String!, fullName: String!, dept: String!): Student! 
     enroll(id: ID): Student
   }
 `
